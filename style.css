@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fons.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* GLOBAL STYLES */
 
@@ -9,9 +9,9 @@
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --font-color: #f53e3e;
+  --btn-bg-color: #c42929;
+  --accent-color: #12eb1d;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,16 +22,16 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: Url("images/Bg.png");
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -39,7 +39,7 @@ body {
 /* HEADER */
 
 header {
-  box-shadow: var(--header-shadow);
+  box-shadow: Red (--header-shadow);
 }
 
 header .container {
@@ -59,7 +59,7 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
+  background: url(images/DL1.png);
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
