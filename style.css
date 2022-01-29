@@ -19,11 +19,18 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: ;
+}
+
+@viewport {
+  width: device-width ; 
+  zoom: 1.0 ;
 }
 
 body {
-  background-image: Url("images/Bg.png");background-size: auto auto;
+  background-image: Url("images/Bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: open;
   flex-direction: row;
   height: vh;
