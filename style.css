@@ -9,9 +9,10 @@
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #00163f;
-  --font-color: #f53e3e;
+  --font-color: #030100;
+  --font-color:#17d417;
   --btn-bg-color: #c42929;
-  --accent-color: #12eb1d;
+  --accent-color: #010201;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,10 +23,10 @@
 }
 
 body {
-  background-image: Url("images/Bg.png");
+  background-image: Url("images/Bg.png");background-size: auto auto;
   display: open;
   flex-flow: column wrap;
-  height: 300vh;
+  height: 600vh;
   color: var(--font-color);
   font-family: var(--font-primary);
   
@@ -33,7 +34,7 @@ body {
 
 .container {
   max-width: 500px;
-  margin: 0 auto;
+  margin:  auto;
   padding: 1rem 2rem;
 }
 
@@ -51,7 +52,7 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 6rem;
+  gap: 10rem;
   align-items: left;
 }
 
@@ -65,11 +66,11 @@ header .container {
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
   box-shadow: 4px 4px 0 0 var(--accent-color);
-  cursor: crosshair;
+  cursor: pointer;
   position: relative;
   text-decoration: none;
   outline: none;
@@ -79,15 +80,15 @@ header .container {
 }
 
 .wallet-btn {
-  border-radius: 5rem;
-  margin-left: 2rem;
-  border-color: transparent;
+  border-radius: 10rem;
+  margin-left: 1rem;
+  border-color: salmon;
 }
 
 .hero-btn {
   border-radius: 4px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  font-size: 5.2rem;
+  padding: 2.5rem 3rem;
 }
 
 /* COUNTDOWN SECTION */
@@ -169,5 +170,21 @@ section {
   .countdown p {
     font-size: 1rem;
   }
+
 }
+
+
+  p {
+    font-size: 3rem;
+    font-style: var(--font-color)
+}
+
+  p {
+  font-size: 3rem;
+    font-style: font-style, oblique 40deg;
+}
+    
+  
+
+
  
