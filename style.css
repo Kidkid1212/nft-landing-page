@@ -45,12 +45,10 @@ body {
 /* HEADER */
 
 header {
-  box-shadow: rgb(235, 227, 227) (--header-shadow);
-  @media screen { max-width: 360,1080;
+  box-shadow: rgb(235, 227, 227) (--header-shadow)
+  meta name="viewport" content="width=device-width, initial-scale=1"
     
-  }
-    
-  }
+   
 }
 
 header .container {
