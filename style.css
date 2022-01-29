@@ -8,12 +8,12 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #030100;
-  --font-color:#17d417;
+  --bg-color: #eaedf3;
+  --font-color: #ff5805;
+  --font-color:#93fc93;
   --btn-bg-color: #c42929;
   --accent-color: #010201;
-  --header-shadow: #000 0px 0px 5px;
+  --header-shadow: rgb(214, 30, 30) 0px 0px 5px;
 }
 
 * {
@@ -25,35 +25,36 @@
 body {
   background-image: Url("images/Bg.png");background-size: auto auto;
   display: open;
-  flex-flow: column wrap;
-  height: 600vh;
+  flex-direction: row;
+  height: vh;
   color: var(--font-color);
   font-family: var(--font-primary);
   
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin:  auto;
-  padding: 1rem 2rem;
+  padding: 6rem 6rem;
 }
 
 /* HEADER */
 
 header {
-  box-shadow: Red (--header-shadow);
+  box-shadow: rgb(235, 227, 227) (--header-shadow);
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
 }
 
 .menu {
   display: flex;
-  gap: 10rem;
+  gap: 8rem;
   align-items: left;
+  
 }
 
 /* BUTTONS */
@@ -76,7 +77,7 @@ header .container {
   outline: none;
 }
 .btn:hover {
-  box-shadow: none;
+  box-shadow:royalblue
 }
 
 .wallet-btn {
@@ -88,7 +89,9 @@ header .container {
 .hero-btn {
   border-radius: 4px;
   font-size: 5.2rem;
-  padding: 2.5rem 3rem;
+  padding: 5 rem 3rem;
+  background: rgb(29, 5, 240);
+  border-top-left-radius: var(--font-color);
 }
 
 /* COUNTDOWN SECTION */
@@ -182,6 +185,18 @@ section {
   p {
   font-size: 3rem;
     font-style: font-style, oblique 40deg;
+
+    
+}
+.hero-btn {
+  border-radius: 4px;
+  font-size: 5.2rem;
+  padding: 5 rem 3rem;
+  background: rgb(29, 5, 240);
+  border-top-left-radius: var(--font-color);
+
+
+
 }
     
   
