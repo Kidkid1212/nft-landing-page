@@ -23,15 +23,16 @@
 
 body {
   background-image: Url("images/Bg.png");
-  display: flex;
+  display: open;
   flex-flow: column wrap;
-  height: 100vh;
+  height: 300vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -45,21 +46,21 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .menu {
   display: flex;
-  gap: 2rem;
-  align-items: center;
+  gap: 6rem;
+  align-items: left;
 }
 
 /* BUTTONS */
 
 .btn {
-  display: inline-block;
+  display: table-row;
   padding: 1rem 2rem;
-  background: url(images/DL1.png);
+  background: var(-accent-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
@@ -68,7 +69,7 @@ header .container {
   text-transform: capitalize;
   transition: all 0.3s ease;
   box-shadow: 4px 4px 0 0 var(--accent-color);
-  cursor: pointer;
+  cursor: crosshair;
   position: relative;
   text-decoration: none;
   outline: none;
@@ -100,7 +101,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 10%;
 }
 
 .countdown ul {
