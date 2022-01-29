@@ -110,7 +110,7 @@ section {
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 .countdown .clock-item .count-number {
