@@ -19,8 +19,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: ;
+  box-sizing: 0;
 }
+
 
 
 
@@ -46,9 +47,16 @@ body {
 
 header {
   box-shadow: rgb(235, 227, 227) (--header-shadow)
-  meta name="viewport" content="width=device-width, initial-scale=1"
-    
-   
+
+}
+
+@-o-viewport{
+  zoom: 1.0
+  width; extend-to-zoom:var(--bg-color)
+}
+@-ms-viewport{ 
+width: extend-to-zoom
+zoom; 
 }
 
 header .container {
