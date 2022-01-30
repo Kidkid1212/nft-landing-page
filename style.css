@@ -28,9 +28,6 @@
 
 
 body {
-  @media screen {max-width: 500px;
-    
-  }
   background-image: Url("images/Bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
