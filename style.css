@@ -30,12 +30,15 @@
 body {
   background-image: Url("images/Bg.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   display: all;
   flex-direction: all;
   height: vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+   @media screen{max-width 500px
+    
+  }
   
 }
 
