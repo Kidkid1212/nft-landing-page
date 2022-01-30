@@ -5,6 +5,9 @@
 /* GLOBAL STYLES */
 
 :root {
+  @media all {max-width: 500;
+    
+  }
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
@@ -165,7 +168,7 @@ section {
   text-align: center;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 500px) {
   .menu {
     gap: 1rem;
   }
