@@ -10,7 +10,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #eaedf3;
+  --bg-color: #070707;
   --font-color: #ff5805;
   --font-color:#93fc93;
   --btn-bg-color: #c42929;
@@ -28,6 +28,9 @@
 
 
 body {
+  @media screen {max-width: 500px;
+    
+  }
   background-image: Url("images/Bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
