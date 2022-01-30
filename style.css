@@ -4,10 +4,9 @@
 
 /* GLOBAL STYLES */
 
+
+
 :root {
-  @media all {max-width: 500;
-    
-  }
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
@@ -31,9 +30,9 @@
 body {
   background-image: Url("images/Bg.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: open;
-  flex-direction: row;
+  background-attachment: scroll;
+  display: all;
+  flex-direction: all;
   height: vh;
   color: var(--font-color);
   font-family: var(--font-primary);
@@ -208,6 +207,10 @@ section {
 
 
 }
+
+
+  
+
 
     
   
