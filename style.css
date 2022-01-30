@@ -50,14 +50,6 @@ header {
 
 }
 
-@-o-viewport{
-  zoom: 1.0
-  width; extend-to-zoom:var(--bg-color)
-}
-@-ms-viewport{ 
-width: extend-to-zoom
-zoom; 
-}
 
 header .container {
   display: flex;
@@ -173,7 +165,7 @@ section {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   .menu {
     gap: 1rem;
   }
