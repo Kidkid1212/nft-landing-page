@@ -36,15 +36,17 @@ body {
   height: vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-   @media screen{max-width 500px
+   @media screen{max-width 500px;
     
   }
   
 }
 
 .container {
-  max-width: 600px;
-  margin:  auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 6rem 6rem;
 }
 
@@ -170,7 +172,7 @@ section {
   text-align: center;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 768px) {
   .menu {
     gap: 1rem;
   }
